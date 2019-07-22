@@ -36,7 +36,7 @@ const scene = new ScrollMagic.Scene({
   // Set the animation to the timeline tween variable so it animates when mouse scrolls
   .setTween(tween)
   // Helps visualize the area for the animation
-  .addIndicators()
+  //   .addIndicators()
   // Sticks top of animation section to top of page until animation finishes playing
   .setPin(".animation")
   .addTo(controller);

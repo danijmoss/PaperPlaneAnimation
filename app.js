@@ -25,6 +25,7 @@ tween.add(
   })
 );
 
+// Animation Controller
 const controller = new ScrollMagic.Controller();
 
 // Set where the animation should start - section with animation class
